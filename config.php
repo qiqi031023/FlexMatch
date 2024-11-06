@@ -1,7 +1,7 @@
 <?PHP
     $servername = "localhost";
-    $username = "root";
-    $password = "";
+    $username = "FlexMatch";
+    $password = "parttimejob2024";
     $dbname = "flexmatch_database";
 
     // Create connection
