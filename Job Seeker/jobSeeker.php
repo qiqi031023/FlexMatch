@@ -6,22 +6,26 @@
     <title>FlexMatch</title>
     <style>
         /* General styles */
+        @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reem+Kufi:wght@400..700&display=swap');
         * {
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-style: normal;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: Arial, sans-serif;
         }
         
         body {
             display: flex;
             flex-direction: column;
             min-height: 100vh;
+            background-image: url('../images/background.jpg');
         }
 
         /* Header */
         header {
-            background-color: #333;
+            background-color: black;
             color: #fff;
             padding: 1rem;
             text-align: center;
@@ -33,14 +37,14 @@
 
         /* Sidebar toggle button */
         .toggle-btn {
-            background-color: #444;
+            background: linear-gradient(135deg, #555555, #333333, #212121);
             border: none;
             color: #fff;
             padding: 0.4rem 0.8rem;
             cursor: pointer;
             position: absolute;
             left: 10px; /* Align toggle button to the left */
-            top: 20%; /* Center vertically if needed */
+            top: 40%; /* Center vertically if needed */
             transform: translateY(-50%);
             font-size: 1rem;
             max-width: 40px; /* Set a max-width to prevent stretching */
@@ -52,7 +56,7 @@
         /* Sidebar */
         .sidebar {
             width: 250px;
-            background-color: #555;
+            background-color: black;
             color: #fff;
             position: fixed;
             top: 0;
@@ -71,12 +75,12 @@
         .sidebar ul li {
             padding: 1rem;
             text-align: center;
-            border-bottom: 1px solid #444;
+            border-bottom: 1px solid #e5e8eb;
         }
 
         /* Close button in sidebar */
         .close-btn {
-            background-color: #444;
+            background: linear-gradient(135deg, #555555, #333333, #212121);
             border: none;
             color: #fff;
             padding: 0.4rem 0.8rem;
