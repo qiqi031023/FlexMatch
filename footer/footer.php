@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         footer {
-            background-color: #333;
+            background-color: black;
             color: #fff;
             padding: 1rem;
             text-align: center;
